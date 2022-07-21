@@ -25,6 +25,19 @@ main {
 .leftcontainer {
   width: 506px;
 }
+.livebtn {
+  width: 187px;
+  height: 56px;
+  background: #dd0000;
+  border-radius: 5px;
+  color: white;
+  font-family: "HelveticaNeue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
 .shorttxt {
   display: none;
 }
@@ -53,8 +66,12 @@ main {
   height: 64px;
   margin: 30px;
   border: 1px solid;
-  border-color: rgb(235, 235, 235);
   border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
 }
 #rightpart {
   display: grid;
@@ -73,6 +90,27 @@ main {
 .blogs > img {
   width: 312px;
   height: 175px;
+}
+.transferdiv {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.transferbtn {
+  width: 100px;
+  height: 32px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.blogicons {
+  margin-left: 5%;
+}
+.blogicons > i {
+  margin-right: 10%;
 }
 .viewbtn > button {
   width: 131px;
@@ -110,7 +148,7 @@ footer {
     position: relative;
     width: 100%;
     width: 370px;
-    height: 500px;
+    height: 600px;
     flex-direction: column;
   }
   .leftcontainer {
@@ -132,6 +170,11 @@ footer {
   .rightcontainer > img {
     width: 233px;
     height: 245px;
+    margin-top: 23%;
+  }
+  .livebtn {
+    width: 161px;
+    height: 40px;
   }
   #secondcontainer {
     overflow-x: hidden;
@@ -173,6 +216,7 @@ footer {
     height: 398px;
     margin: 2%;
   }
+
   #secondcontainer {
     flex-direction: column;
     justify-content: center;
@@ -216,7 +260,9 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
   }
-  footer{
-    wid
+  footer {
+    position: relative;
+    overflow-x: hidden !important;
+    width: 100%;
   }
 }
