@@ -8,7 +8,28 @@ main {
   justify-content: center;
   align-items: center;
 }
-
+.matchdiv {
+  width: 312px;
+  height: 242px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-color: rgb(235, 235, 235);
+  border-radius: 10px;
+}
+.matchupperdiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 24px;
+}
+.matchtime {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4d4d4d;
+}
 .container {
   width: 1321px;
   height: 607px;
