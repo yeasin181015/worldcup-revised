@@ -82,6 +82,28 @@ main {
   border-radius: 5px;
   display: none;
 }
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+}
+.options > h3 {
+  color: #b9b9b9;
+  margin: 24px;
+}
+.options {
+  display: flex;
+}
+.goal {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.icons > i {
+  margin: 30px;
+}
 @media only screen and (max-width: 486px) {
   .container {
     overflow-x: hidden !important;
@@ -114,6 +136,7 @@ main {
   #secondcontainer {
     overflow-x: hidden;
     position: relative;
+    margin-top: 0;
   }
   #rightpart {
     display: flex;
@@ -129,6 +152,17 @@ main {
   .leftpart > button {
     width: 210px;
     height: 48px;
+  }
+  footer {
+    overflow-x: hidden;
+    width: 100%;
+    border: 2px solid red;
+    height: auto;
+  }
+  .options {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media only screen and (min-width: 487px) and (max-width: 768px) {
@@ -175,5 +209,14 @@ main {
   }
   .viewbtn > button {
     display: inline;
+    margin-top: 30%;
+    margin-bottom: 30%;
+  }
+  .options {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer{
+    wid
   }
 }
